@@ -1,0 +1,17 @@
+baseURL = "http://goexample.cn/"
+languageCode = "en-us"
+title = "懂你Go语言 14天搞定golang"
+theme = "hugo-nuo"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Works"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/laozhu"

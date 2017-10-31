@@ -1,6 +1,6 @@
 baseURL = "http://goexample.cn/"
 languageCode = "en-us"
-title = "懂你Go语言 14天搞定golang"
+title = "14天搞定go"
 theme = "hugo-nuo"
 
 # Initial site menu, you can extend menu with content.

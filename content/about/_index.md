@@ -3,27 +3,45 @@ title = "About Hugo"
 date = "2014-04-09"
 +++
 
-Hugo is a static site engine written in Go.
++++
+author = "Theme author"
+categories = ["About"]
+date = "2014-09-28"
+description = "很多人觉得程序员高大上，写代码像天书，学习一门编程语言很难！那么这一次像解决英语一样来搞定go语言学习！"
+featured = "pic03.jpg"
+featuredalt = "Pic 3"
+featuredpath = "date"
+linktitle = ""
+title = "关于14天搞定GO语言! - (一个初学者入门go语言的地方) "
+type = "post"
+
++++
+
+# 其实学习GO语言开发很简单。只要坚持。把每天3-4课的例子代码写写。跟着老师群里面理解代码的意思。14天后你会发现你真的入门GO语言了。
 
 
-It makes use of a variety of open source projects including:
+## 为什么要学习Go语言
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+* 部署简单。Go 编译生成的是一个静态可执行文件，除了 glibc 外没有其他外部依赖。这让部署变得异常方便：目标机器上只需要一个基础的系统和必要的管理、监控工具，完全不需要操心应用所需的各种包、库的依赖关系，大大减轻了维护的负担。这和 Python 有着巨大的区别。由于历史的原因，Python 的部署工具生态相当混乱【比如 setuptools, distutils, pip, buildout 的不同适用场合以及兼容性问题】。官方 PyPI 源又经常出问题，需要搭建私有镜像，而维护这个镜像又要花费不少时间和精力。
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+* 并发性好。Goroutine 和 channel 使得编写高并发的服务端软件变得相当容易，很多情况下完全不需要考虑锁机制以及由此带来的各种问题。单个 Go 应用也能有效的利用多个 CPU 核，并行执行的性能好。这和 Python 也是天壤之比。多线程和多进程的服务端程序编写起来并不简单，而且由于全局锁 GIL 的原因，多线程的 Python 程序并不能有效利用多核，只能用多进程的方式部署；如果用标准库里的 multiprocessing 包又会对监控和管理造成不少的挑战【我们用的 supervisor 管理进程，对 fork 支持不好】。部署 Python 应用的时候通常是每个 CPU 核部署一个应用，这会造成不少资源的浪费，比如假设某个 Python 应用启动后需要占用 100MB 内存，而服务器有 32 个 CPU 核，那么留一个核给系统、运行 31 个应用副本就要浪费 3GB 的内存资源。
+* 良好的语言设计。从学术的角度讲 Go 语言其实非常平庸，不支持许多高级的语言特性；但从工程的角度讲，Go 的设计是非常优秀的：规范足够简单灵活，有其他语言基础的程序员都能迅速上手。更重要的是 Go 自带完善的工具链，大大提高了团队协作的一致性。比如 gofmt 自动排版 Go 代码，很大程度上杜绝了不同人写的代码排版风格不一致的问题。把编辑器配置成在编辑存档的时候自动运行 gofmt，这样在编写代码的时候可以随意摆放位置，存档的时候自动变成正确排版的代码。此外还有 gofix, govet 等非常有用的工具。
+* 执行性能好。虽然不如 C 和 Java，但通常比原生 Python 应用还是高一个数量级的，适合编写一些瓶颈业务。内存占用也非常省。
 
-## Setup
+总之根据老衲十几年的软件开发经验，后端开放GO语言足以！ 
 
-Some fun facts about [Hugo](http://gohugo.io/):
+## 怎么学习GO语言
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+   只要你坚持安装我们的方法学习。1 4天打卡下来，保证你入门GO语言。 当然了。如果实在学不会，要么在学一遍，要么还是放弃吧！
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+
+## 所有例子都有源码 和Playgound在线运行环境
+  不停的练习例子，自然就找到了感觉..... 祝你成功！
+
+
+## 联系我们(beta,暂时微信群不开放。。。。，请等待页面更新.....)
+  维护中。。。。
+
 
 Thanks for reading!
+Good luck!

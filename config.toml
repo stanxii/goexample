@@ -1,7 +1,7 @@
 #baseurl = "http://goexample.cn"
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "14 天搞定 GO 语言"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -11,9 +11,9 @@ pluralizeListTitles = false
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "Go lang ."
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "Go study"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
@@ -60,11 +60,11 @@ pluralizeListTitles = false
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Hugo Future Imperfect"
+  header    = "14天搞定 Go语言!"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "作者非博士海龟背景，网站地址 <a href=\"http://www.goexample.cn\">Go Gopher Golang UP</a>. 我是一个十多年的软件开发老兵，一直在一线Coding.... 目前还在，以小白心态如何入门Go语言的一线心得。 <i class='fa fa-hand-peace-o'></i>"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "不讲Go的重要性，值讲学习Go语言的真实训练方法， 看例子，多炒代码，运行，出错。交流经验，最好记住例子代码。理解。最好自然而然就写好代码了!"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -75,7 +75,7 @@ pluralizeListTitles = false
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
     width     = ""
-    alt       = "Hugo Future Imperfect"
+    alt       = "14天搞定 Go语言"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -124,7 +124,7 @@ pluralizeListTitles = false
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github          = "jpescador/hugo-future-imperfect"
+  github          = "stanxii/goexample"
   gitlab          = ""
   stackoverflow   = "" # User Number
   bitbucket       = ""

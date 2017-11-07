@@ -1,5 +1,5 @@
 +++
-title = "About Hugo"
+title = "About 14天搞定GO语言!"
 date = "2014-04-09"
 +++
 

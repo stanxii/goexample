@@ -1,7 +1,7 @@
 +++
 author = "Theme author"
 categories = ["Hugo"]
-date = "2014-09-28"
+date = "2017-11-10"
 description = "在编译期间被创建并确定值，运行期不能改变值"
 featured = "pic03.jpg"
 featuredalt = "Pic 3"

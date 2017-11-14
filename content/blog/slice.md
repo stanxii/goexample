@@ -1,4 +1,3 @@
-
 +++
 author = "stan.xii@gmail.com"
 categories = ["Go"]
@@ -14,7 +13,7 @@ type = "post"
 +++
 
 
-## Go by Example 中文：切片
+## 切片 (slice)
 
 Slice 是 Go 中一个关键的数据类型，是一個比數組更加強大的数据结构
 
